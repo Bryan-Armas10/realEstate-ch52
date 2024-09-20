@@ -5,3 +5,24 @@
 body{
     font-family: arial;
 }
+img{
+    max-width: 100%;
+}
+header{
+    background-image: url(img/header.jpg);
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+    color: white;
+}
+/* Main */
+.main-container{
+    display: flex;
+    justify-content:left;
+    margin-left: 40px;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
