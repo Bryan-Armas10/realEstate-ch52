@@ -67,11 +67,16 @@ h1,h2,h3{
 }
 /* Houses */
 .houses-container{
-
+    margin: 0 10px;
+    padding: 10px;
+}
+.houses-container-all{
+    display: flex;
+    justify-content: space-between;
 }
 .houses-item{
     background-color:#dedede;
-    padding: 10px;
+    padding: 0;
 }
 .houses-item-text{
     padding: 20px;
@@ -79,11 +84,12 @@ h1,h2,h3{
 .price{
     color: green;
 }
-.icon-container{
-    display:flex;
-}
 .icon-container img{
     margin-right: 20px;
+}
+.icon-container{
+    display:flex;
+    margin: 40px;
 }
 .icons-list{
     display: flex;
