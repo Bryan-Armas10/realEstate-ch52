@@ -24,10 +24,10 @@
         </div>
     </header>
     <main class="container">
-        <h2>Contact</h2>
+        <h2 style="text-align: center;">Contact</h2>
         <div>
-            <p>Fill the next information</p>
-            <p>efgedfgvedfg ergerg erfger g ergew g efgedfgvedfg ergerg erfger g ergew g efgedfgvedfg ergerg erfger g ergew gefgedfgvedfg ergerg erfger g ergew g efgedfgvedfg ergerg erfger g ergew g efgedfgvedfg ergerg erfger g ergew g efgedfgvedfg ergerg erfger g ergew gefgedfgvedfg ergerg erfger g ergew g</p>  
+            <p style="text-align: center;">Fill the next information</p>
+            <p style="text-align: center;">efgedfgvedfg ergerg erfger g ergew g efgedfgvedfg ergerg erfger g ergew g efgedfgvedfg ergerg erfger g ergew gefgedfgvedfg ergerg erfger g ergew <i class="fa-solid fa-circle-info"></i></p>  
             <div class="form-container">
                 <fieldset>
                     <legend>Personal information</legend>
@@ -47,6 +47,41 @@
                         <label>Message:</label>
                         <textarea></textarea>
                     </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Product  information</legend>
+                    <div class="form-control">
+                        <label>Type:</label>
+                        <input list="web" placeholder="--- Option 1 ---">
+                        <datalist id="web">
+                            <option value="Edge">
+                            <option value="Firefox">
+                            <option value="Chrome">
+                            <option value="Opera">
+                            <option value="Safari">
+                        </datalist>
+                    </div>
+                    <div class="form-control"> 
+                        <label>Number:</label>
+                        <input type="number">
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Contact information</legend>
+                    <div class="form-control3">           
+                      <label>Email:</label>
+                      <input type="radio"  name="rad">
+                      <label>Phone:</label>
+                      <input type="radio"  name="rad">
+                    </div>
+                    <div class="form-control3"> 
+                      <label>Date:</label>
+                      <input type="date">
+                      <label>Hour:</label>
+                      <input type="time"> 
+                    </div> 
                 </fieldset>
             </div>
         </div>
