@@ -21,7 +21,7 @@ h1,h2,h3{
 /* Utilities */
 .container{
     width: 80%;
-    margin: 0 auto;
+    margin: 0 auto; 
 }
 .btn{
     display: block;
@@ -82,13 +82,13 @@ h1,h2,h3{
 }
 .price{
     color: green;
+    font-weight: bold;
 }
 .icon-container img{
-    margin-right: 20px;
+    margin-right: 10px;
 }
 .icon-container{
     display:flex;
-    margin: 40px;
 }
 .icons-list{
     display: flex;
