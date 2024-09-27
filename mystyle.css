@@ -145,11 +145,13 @@ h1,h2,h3{
 .contact-header{
     background-color: orange;
     color: black;
-    height: 150px;
+    height: 200px;
+    background-size: cover;
 }
 .contact-header a{
     color: black;
 }
+
 /* Form */
 .form-container{
     background-color: #dedede;
